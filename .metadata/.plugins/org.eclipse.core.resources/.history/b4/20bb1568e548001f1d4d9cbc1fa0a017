@@ -1,0 +1,37 @@
+package practice;
+class player{
+	public void shot(){
+		System.out.println("shot played");
+	}
+}
+class ViratKohli extends player {
+	public void shot() {
+		System.out.println("Cover drive");
+	}
+}
+class RohitSharma extends ViratKohli {
+	public void shot() {
+		System.out.println("pull shot");
+	}
+}
+class KL_Rahul extends RohitSharma{
+	public void shot() {
+		System.out.println("Flick");
+	}
+}
+public class MethodOverriding {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		player play = new player();
+		ViratKohli virat  = new ViratKohli();
+		RohitSharma rohit = new RohitSharma();
+		KL_Rahul KL = new KL_Rahul();
+		play.shot();
+		virat.shot();
+		rohit.shot();
+		KL.shot();
+		
+	}
+
+}

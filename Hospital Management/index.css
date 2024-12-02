@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: white;
+}
+
+.nav-link{
+    color: rgb(4, 4, 170);
+    font-weight:600;
+    font-size: 15px;
+    margin-left: -2%;
+}
+.navbar-brand{
+    padding-left: 8%;
+}
+/* Home */
+.h1-Home{
+    background-image: url('https://img.freepik.com/free-photo/young-handsome-physician-medical-robe-with-stethoscope_1303-17818.jpg?t=st=1722241200~exp=1722244800~hmac=d359da9840ecccfae5fc1386e334889b3d66599f5f323c231a93eff501b6449a&w=740');
+    width: 98vw;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+.h1-text{
+    padding-top: 20%;
+    padding-left: 10%;
+    color: rgb(187, 6, 6);
+   font-size: 70px;
+}
+/* section3 */
+.sec3 .column p{
+    text-align: justify;
+}
+.sec3 .sec3-h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    text-align: justify;
+}
+/* section4 */
+.sec4 .col .para{
+    text-align: justify;
+}
+.sec4{
+    margin-top: 5%;
+}
+.sec4 h1{
+    padding-bottom: 2%;
+}
+/* section5 */
+.sec5 .col .points{
+    display: inline-block;
+}

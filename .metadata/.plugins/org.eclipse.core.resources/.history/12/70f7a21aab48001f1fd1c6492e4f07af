@@ -1,0 +1,28 @@
+package oops;
+class phone{
+	public void call() {
+		System.out.println("call connected");
+	}
+}
+class CameraPhone extends phone{
+	public void pics() {
+		System.out.println("clicked picture");
+	}
+}
+class smartPhone extends CameraPhone{
+	public void InstallApps() {
+		System.out.println("installed apps");
+	}
+}
+public class Multilevel_Inheritance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		smartPhone obj = new smartPhone();
+		obj.call();
+		obj.pics();
+		obj.InstallApps();
+
+	}
+
+}
